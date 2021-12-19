@@ -6,5 +6,5 @@ DEBUG = bool(getenv('FLASK_DEBUG', True))
 
 # Installend Blueprints ('package', 'name', 'version')
 BLUEPRINT_LIST = (
-    # ('package', 'name', 'version')
+    ('temperature', 'temperature', '1'),
 )
