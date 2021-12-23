@@ -3,8 +3,10 @@ from os import getenv
 
 ENV = getenv('FLASK_ENV', 'development')
 DEBUG = bool(getenv('FLASK_DEBUG', True))
-CACHE_TTL = getenv('CACHE_TTL', 5)
-DEFAULT_MAX_NUMBER = getenv('DEFAULT_MAX_NUMBER', 5)
+
+# Cache configuration
+CACHE_TYPE = 'SimpleCache'
+CACHE_DEFAULT_TIMEOUT = int(getenv('CACHE_DEFAULT_TIMEOUT', 300))
 
 # Installend Blueprints ('package', 'name', 'version')
 BLUEPRINT_LIST = (
