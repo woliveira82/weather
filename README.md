@@ -78,7 +78,8 @@ The tests was created with **[pytest](https://docs.pytest.org/)**. You will need
 platform linux -- Python 3.8.2, pytest-6.2.5, py-1.11.0, pluggy-1.0.0
 rootdir: /home/weiner/projects/weather
 plugins: cov-3.0.0, env-0.6.2
-collected 5 items                                                                                                                                                                                          
+collected 5 items
+
 tests/test_app.py                                                                  [ 20%]
 tests/test_temperature.py ....                                                     [100%]
 
